@@ -1,0 +1,24 @@
+{
+  "backup": {
+    "source": "./data",
+    "target": "./backup",
+    "full": false,
+    "interval": 60
+  },
+  "monitor": {
+    "path": "/",
+    "threshold": 80,
+    "interval": 30
+  },
+  "rename": {
+    "prefix": "new_",
+    "ext": ".txt"
+  },
+  "email": {
+    "smtp_server": "smtp.qq.com",
+    "smtp_port": 587,
+    "sender": "",
+    "password": "",
+    "receiver": ""
+  }
+}
